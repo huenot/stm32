@@ -16,7 +16,7 @@ int main (void)
 
     GPIO_SetBits(GPIOA, GPIO_Pin_0);
 
-    int pwr = 1;
+    int pwr = 1; // pidr
     int cls = 1;
     int mor = 1;
     while (1)
